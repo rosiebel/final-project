@@ -63,7 +63,7 @@ body {
 }
 
 .menu a:hover {
-  color: red;
+  color: orange;
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -98,8 +98,25 @@ h2 {
   font-family: 'Merriweather', serif;
   font-size: 30px;
   text-align: center;
-  padding: 0px;
+  margin: 0px;
+  color: #2E2E2E;
 }
+
+/* .line {
+  position: absolute;
+  display: inline;
+  text-align: center;
+  height: 5px;
+  border-bottom: 1px solid black;
+  width: 600px;
+} */
+
+.social-section {
+  margin: 20px;
+  padding: 1px;
+}
+
+/* border: 20px solid #E6E6E6; */
 
 .carousel {
   text-align: center;
@@ -108,23 +125,23 @@ h2 {
   padding-left: 50px;
 }
 
+
+
 .slick-prev:before, .slick-next:before {
   color: black;
   text-shadow: 1px 1px 2px #000;
 }
 
 .social {
-  padding: 10px;
+  padding: 1px;
 }
+
 
 .twitter-tweet {
   width: 300px;
-  height: 400px;
+  height: 500px;
 }
 
-.line {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
+
+
+

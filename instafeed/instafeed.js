@@ -4,7 +4,7 @@ var feed = new Instafeed({
         clientId: '0c45d775c4d94644a55f79b09d0809b4',
         template: '<a href="{{link}}"><img src="{{image}}" /></a>',
         sortBy: 'most-liked',
-        resolution: 'thumbnail',
+        resolution: 'low_resolution',
         limit: 700
     });
 
